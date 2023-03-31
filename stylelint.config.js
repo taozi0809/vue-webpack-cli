@@ -1,5 +1,4 @@
-// stylelint.config.js
-
+/* eslint-disable quotes */
 module.exports = {
   root: true,
   // 拓展插件

@@ -21,5 +21,6 @@ export default {
   height: 200px;
   color: #fff;
   background-color: #000;
+  background: url(@/assets/images/guang.png);
 }
 </style>

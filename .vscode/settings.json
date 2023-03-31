@@ -132,6 +132,11 @@
     },
     "editor.defaultFormatter": "johnsoncodehk.volar"
   },
+  "stylelint.validate": [
+    "css",
+    "scss"
+  ],
+  "stylelint.customSyntax": "postcss-scss",
   "compile-hero.disable-compile-files-on-did-save-code": true,
   "i18n-ally.localesPaths": [
     "src/locales",

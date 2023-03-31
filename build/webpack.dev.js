@@ -38,5 +38,10 @@ module.exports = merge(base, {
       // 检查的文件范围
       files: ['**/*.scss'],
     }),
-  ]
+    //开启热更新
+    new webpack.HotModuleReplacementPlugin()
+  ],
+  devServer: {
+    hot: true //开启热更新
+  },
 })
